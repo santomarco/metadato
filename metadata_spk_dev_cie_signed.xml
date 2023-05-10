@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:cie="https://www.cartaidentita.interno.gov.it/saml-extensions" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" ID="_8EEB1A1D-597F-405F-89C1-EDF69BB8021A" entityID="https://on-banking.sparkasse.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_8EEB1A1D-597F-405F-89C1-EDF69BB8021A">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>XIty5JW+QIGepcP5VUO3XipNtuGnTo3sPgClk9jOKoY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+UPdThnlCAH05guHvH9+sbtqqHDgj/u+0IDxz6pCZ1/ZKLli4PL0j8om+VzLUNjQSpg/tcKVNNpMu
+MHT00XSNFSZNsW5tHFNha7p/G2cImS+0g9DFlIpf4j7vjD3JmLgUx+kiKCxiZD/OuTx++FaFlxR9
+Cc1w9otuRoXRZrGDX7GC5at/NXenbtprIm+hnBUHGjZ6DbPCjWcLKoJXNoMT3EENwP2tN74odjSl
+D3Lx6Rfk4/zflgu2/dVNarBR0dXUgUZH0NF9q0GygN83aDcD4F/1GfDZuEgr6kQ0N5gKTi/GLPjT
+KQZ2vHHtq1WgfNrLtKAXsPSrRi2+SHvaHtX8hUL4EMUIIhf6vPAnBfYMAQ/Q6U/pkZaCIeEFlA23
+jVH3aan2y9XyM8M16ztCzp+ZszJeC4934bJSRKk3OmzKr1vII1eOhny2A9g63YX21h44/5Qa22yO
+gqitZvDkH6FlGj/5kCcqh9vVOBhOXAQxmZ6JFIaoStn26sz7QAmM3qBHPQ2mJICfPaf9sxVRzqc+
+xFIKZ7pGAnwB2QuFF+LrQyii0S+it+UC/1nUpkDMhKedXb9kYD63/WHzpH1ELB8ALOJqLQ3BFVLt
+rTk55hv2OcFoU3BmphDovJmTBVPSGPN/ukigo4U32hqe81gDpFh1C7QwkgMKg5LbCvFoawsr3xo=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0p249FgbPpamRnb4PqG4nSO5/1N4Wu1LGrLRUS7I7pyFlO0YxyANNPg+3Hxh2xINadPE72j3qLjN
+kVZnmgIoixJn4koN+WA6Zj1DTllfRQ5jIr70XZBsWE2n+S4/4awhnhKMP8ZEwQ+ToTI5t7qeCvZT
+O2ohWFYbXjtNMDG+S0Vs27zdLu3vkCYA/7mdOrkmK9Sm9C4tIXC1AvfqsH1gYUXrjiBQakLkIZ9A
+pc3fjioAG9i/SQBpe7mVFoXOM5PWixZkplhF49M7Kf9K1HgMZhFQ1p2GEgMw6sxsHLzIi/fFeYG7
+QqRrilC+9m6/8rU8IbYfwF/pYe475V5CLQGUDLrdrsCznEsdt548PmtSKuR/Po3RYDUzBAUotMmo
+s6PxvjdJRwqdpu8Wc5JDHW0G/rn+xaTuxSgWILXDEeEsMbalSFbIoiCfWzBaOY6OhcpSmoBV+tda
+i67UNhIvGqqQdi9/riNgUS3WY6MsSI12xKiEc9HhNgOLIsUTw25rs46bQOhmsIVKt3aq+QpZsjVU
+sCDT85GB0senrOrSXkFDBVigf30Q0shuuH7LSdkwjx0OSWf5KAK8KqKwi0VCfQ7HCKhMnDw8pj3S
+mGKwHXE/AyHVKN71ZjWVc3/8fXGC8vp6fsHrJy5Y9EqINXtKBQdU9Oo2U+oM6xay/NQIaI0+XTU=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+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
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIGXDCCBESgAwIBAgIJAK69TExUXUsJMA0GCSqGSIb3DQEBCwUAMIHCMQswCQYD
+                        VQQGEwJJVDEQMA4GA1UECAwHQk9MWkFOTzEQMA4GA1UEBwwHQk9MWkFOTzEqMCgG
+                        A1UECgwhQ2Fzc2EgZGkgUmlzcGFybWlvIGRpIEJvbHphbm8gU3BBMRMwEQYDVQQL
+                        DApJVCBTU08gQ0lFMSAwHgYDVQQDDBdvbi1iYW5raW5nLnNwYXJrYXNzZS5pdDEs
+                        MCoGCSqGSIb3DQEJARYdZGF2aWRlLnphbmVsb3R0b0BzcGFya2Fzc2UuaXQwHhcN
+                        MjMwMjE1MTgwMzQ5WhcNMjYwMjE0MTgwMzQ5WjCBwjELMAkGA1UEBhMCSVQxEDAO
+                        BgNVBAgMB0JPTFpBTk8xEDAOBgNVBAcMB0JPTFpBTk8xKjAoBgNVBAoMIUNhc3Nh
+                        IGRpIFJpc3Bhcm1pbyBkaSBCb2x6YW5vIFNwQTETMBEGA1UECwwKSVQgU1NPIENJ
+                        RTEgMB4GA1UEAwwXb24tYmFua2luZy5zcGFya2Fzc2UuaXQxLDAqBgkqhkiG9w0B
+                        CQEWHWRhdmlkZS56YW5lbG90dG9Ac3Bhcmthc3NlLml0MIICIjANBgkqhkiG9w0B
+                        AQEFAAOCAg8AMIICCgKCAgEA0p249FgbPpamRnb4PqG4nSO5/1N4Wu1LGrLRUS7I
+                        7pyFlO0YxyANNPg+3Hxh2xINadPE72j3qLjNkVZnmgIoixJn4koN+WA6Zj1DTllf
+                        RQ5jIr70XZBsWE2n+S4/4awhnhKMP8ZEwQ+ToTI5t7qeCvZTO2ohWFYbXjtNMDG+
+                        S0Vs27zdLu3vkCYA/7mdOrkmK9Sm9C4tIXC1AvfqsH1gYUXrjiBQakLkIZ9Apc3f
+                        jioAG9i/SQBpe7mVFoXOM5PWixZkplhF49M7Kf9K1HgMZhFQ1p2GEgMw6sxsHLzI
+                        i/fFeYG7QqRrilC+9m6/8rU8IbYfwF/pYe475V5CLQGUDLrdrsCznEsdt548PmtS
+                        KuR/Po3RYDUzBAUotMmos6PxvjdJRwqdpu8Wc5JDHW0G/rn+xaTuxSgWILXDEeEs
+                        MbalSFbIoiCfWzBaOY6OhcpSmoBV+tdai67UNhIvGqqQdi9/riNgUS3WY6MsSI12
+                        xKiEc9HhNgOLIsUTw25rs46bQOhmsIVKt3aq+QpZsjVUsCDT85GB0senrOrSXkFD
+                        BVigf30Q0shuuH7LSdkwjx0OSWf5KAK8KqKwi0VCfQ7HCKhMnDw8pj3SmGKwHXE/
+                        AyHVKN71ZjWVc3/8fXGC8vp6fsHrJy5Y9EqINXtKBQdU9Oo2U+oM6xay/NQIaI0+
+                        XTUCAwEAAaNTMFEwHQYDVR0OBBYEFDaYJK3ui85UVVG/1W6Im+gBhYonMB8GA1Ud
+                        IwQYMBaAFDaYJK3ui85UVVG/1W6Im+gBhYonMA8GA1UdEwEB/wQFMAMBAf8wDQYJ
+                        KoZIhvcNAQELBQADggIBAFFJuM5KpoyHxnZya1wcRPmbxOLmQdKTbL39FLV1CrxK
+                        0MPJODj7QywlfXq109lFUFSQceNrqYMn6FbAyXNEG1RucA1rMMyWDWKa+mbeI8uh
+                        wZeMyzsEEpaSMtllOmNof6jqvlDmlfD8x+AA8ishBOxejCB0UkEJmR/wBZIN1fUC
+                        QnYDIA/9nweRiGsGtsw0o/35+QDS+zJuSDcsySsnaLyzzvNOJvP6jliXpal+j86m
+                        dPhS4McvK+w+OFtXrw7E+EnMB6gzJM419FoizN2h/Q2EnXvzYgQlLKHmnEVAHnxL
+                        Y/aG3+/7Op4i7j78Ff3OOSLHz/KOoKsyQXBAiLq3cnk0AjA0F7RMXCazt7/3wlCN
+                        KL1CIHFFrjacM1OvFzvj0JnrlYzLyNNnw987IyCLeu7PxfghO53xZg/mmjMi4dNo
+                        Iwh34eG91vxYk70QZoUQoTltFZLHrM5GrtpjTnEpSQO+jWUTdNG1Kx1+hNXD6OuK
+                        OJ6A0r1sRrllABF6cjMBTnDInk3Pof+8F6eEmVnNJGokx6xXDfdhA5k3UCGDdlKw
+                        abHHdYA3WSFykmCwJEUiOik4SadY4U4wUMt4tN2Qez6TzW1j2Bq8SKMhJvikhgNd
+                        Cp1l85QfZ5sfCr++QwK5knA/64WODOq81AfABIiOzVMGB8N/fQXm5s1nis+SvEBC</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate> MIIGXDCCBESgAwIBAgIJAK69TExUXUsJMA0GCSqGSIb3DQEBCwUAMIHCMQswCQYD
+                        VQQGEwJJVDEQMA4GA1UECAwHQk9MWkFOTzEQMA4GA1UEBwwHQk9MWkFOTzEqMCgG
+                        A1UECgwhQ2Fzc2EgZGkgUmlzcGFybWlvIGRpIEJvbHphbm8gU3BBMRMwEQYDVQQL
+                        DApJVCBTU08gQ0lFMSAwHgYDVQQDDBdvbi1iYW5raW5nLnNwYXJrYXNzZS5pdDEs
+                        MCoGCSqGSIb3DQEJARYdZGF2aWRlLnphbmVsb3R0b0BzcGFya2Fzc2UuaXQwHhcN
+                        MjMwMjE1MTgwMzQ5WhcNMjYwMjE0MTgwMzQ5WjCBwjELMAkGA1UEBhMCSVQxEDAO
+                        BgNVBAgMB0JPTFpBTk8xEDAOBgNVBAcMB0JPTFpBTk8xKjAoBgNVBAoMIUNhc3Nh
+                        IGRpIFJpc3Bhcm1pbyBkaSBCb2x6YW5vIFNwQTETMBEGA1UECwwKSVQgU1NPIENJ
+                        RTEgMB4GA1UEAwwXb24tYmFua2luZy5zcGFya2Fzc2UuaXQxLDAqBgkqhkiG9w0B
+                        CQEWHWRhdmlkZS56YW5lbG90dG9Ac3Bhcmthc3NlLml0MIICIjANBgkqhkiG9w0B
+                        AQEFAAOCAg8AMIICCgKCAgEA0p249FgbPpamRnb4PqG4nSO5/1N4Wu1LGrLRUS7I
+                        7pyFlO0YxyANNPg+3Hxh2xINadPE72j3qLjNkVZnmgIoixJn4koN+WA6Zj1DTllf
+                        RQ5jIr70XZBsWE2n+S4/4awhnhKMP8ZEwQ+ToTI5t7qeCvZTO2ohWFYbXjtNMDG+
+                        S0Vs27zdLu3vkCYA/7mdOrkmK9Sm9C4tIXC1AvfqsH1gYUXrjiBQakLkIZ9Apc3f
+                        jioAG9i/SQBpe7mVFoXOM5PWixZkplhF49M7Kf9K1HgMZhFQ1p2GEgMw6sxsHLzI
+                        i/fFeYG7QqRrilC+9m6/8rU8IbYfwF/pYe475V5CLQGUDLrdrsCznEsdt548PmtS
+                        KuR/Po3RYDUzBAUotMmos6PxvjdJRwqdpu8Wc5JDHW0G/rn+xaTuxSgWILXDEeEs
+                        MbalSFbIoiCfWzBaOY6OhcpSmoBV+tdai67UNhIvGqqQdi9/riNgUS3WY6MsSI12
+                        xKiEc9HhNgOLIsUTw25rs46bQOhmsIVKt3aq+QpZsjVUsCDT85GB0senrOrSXkFD
+                        BVigf30Q0shuuH7LSdkwjx0OSWf5KAK8KqKwi0VCfQ7HCKhMnDw8pj3SmGKwHXE/
+                        AyHVKN71ZjWVc3/8fXGC8vp6fsHrJy5Y9EqINXtKBQdU9Oo2U+oM6xay/NQIaI0+
+                        XTUCAwEAAaNTMFEwHQYDVR0OBBYEFDaYJK3ui85UVVG/1W6Im+gBhYonMB8GA1Ud
+                        IwQYMBaAFDaYJK3ui85UVVG/1W6Im+gBhYonMA8GA1UdEwEB/wQFMAMBAf8wDQYJ
+                        KoZIhvcNAQELBQADggIBAFFJuM5KpoyHxnZya1wcRPmbxOLmQdKTbL39FLV1CrxK
+                        0MPJODj7QywlfXq109lFUFSQceNrqYMn6FbAyXNEG1RucA1rMMyWDWKa+mbeI8uh
+                        wZeMyzsEEpaSMtllOmNof6jqvlDmlfD8x+AA8ishBOxejCB0UkEJmR/wBZIN1fUC
+                        QnYDIA/9nweRiGsGtsw0o/35+QDS+zJuSDcsySsnaLyzzvNOJvP6jliXpal+j86m
+                        dPhS4McvK+w+OFtXrw7E+EnMB6gzJM419FoizN2h/Q2EnXvzYgQlLKHmnEVAHnxL
+                        Y/aG3+/7Op4i7j78Ff3OOSLHz/KOoKsyQXBAiLq3cnk0AjA0F7RMXCazt7/3wlCN
+                        KL1CIHFFrjacM1OvFzvj0JnrlYzLyNNnw987IyCLeu7PxfghO53xZg/mmjMi4dNo
+                        Iwh34eG91vxYk70QZoUQoTltFZLHrM5GrtpjTnEpSQO+jWUTdNG1Kx1+hNXD6OuK
+                        OJ6A0r1sRrllABF6cjMBTnDInk3Pof+8F6eEmVnNJGokx6xXDfdhA5k3UCGDdlKw
+                        abHHdYA3WSFykmCwJEUiOik4SadY4U4wUMt4tN2Qez6TzW1j2Bq8SKMhJvikhgNd
+                        Cp1l85QfZ5sfCr++QwK5knA/64WODOq81AfABIiOzVMGB8N/fQXm5s1nis+SvEBC</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://on-banking.sparkasse-svi.it/psd2api/pages/Ciepage/logout"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://on-banking-svi.sparkasse.it/psd2api/pages/Ciepage/access" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set Attributi 1 OnboardingApi - ID Cittadini minimo</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Set Attributi 1 OnboardingApi - ID Cittadini minimo</md:ServiceDescription>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://on-banking-svi.sparkasse.it/identificationapi/Ciepage/access" index="1" isDefault="false"/>
+        <md:AttributeConsumingService index="1">
+          <md:ServiceName xml:lang="it">Set Attributi 1 IdentificationApi - ID Cittadini minimo</md:ServiceName>
+          <md:ServiceDescription xml:lang="it">Set Attributi 1 IdentificationApi - ID Cittadini minimo</md:ServiceDescription>
+          <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+          <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+          <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+          <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Cassa di Risparmio di Bolzano SpA</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Cassa di Risparmio di Bolzano SpA</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://sparkasse.it</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="administrative">
+        <md:Extensions xmlns:fpa="https://www.cartaidentita.interno.gov.it/saml-extensions">
+            <cie:Private/>
+            <cie:VATNumber>IT00152980215</cie:VATNumber>
+            <cie:FiscalCode>00152980215</cie:FiscalCode>
+            <cie:NACE2Code>64191</cie:NACE2Code>
+            <cie:Municipality>23014</cie:Municipality>
+        </md:Extensions>
+        <md:Company>Cassa di Risparmio di Bolzano SpA</md:Company>
+        <md:EmailAddress>francesco.ortesta@sparkasse.it</md:EmailAddress>
+        <md:TelephoneNumber>+393351346261</md:TelephoneNumber>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="technical">
+        <md:Extensions xmlns:fpa="https://www.cartaidentita.interno.gov.it/saml-extensions">
+            <cie:Private/>
+            <cie:VATNumber>IT10537880964</cie:VATNumber>
+            <cie:FiscalCode>01181770155</cie:FiscalCode>
+            <cie:NACE2Code>64191</cie:NACE2Code>
+            <cie:Municipality>23014</cie:Municipality>
+        </md:Extensions>
+        <md:Company>Cassa di Risparmio di Bolzano SpA</md:Company>
+        <md:EmailAddress>davide.zanelotto@sparkasse.it</md:EmailAddress>
+        <md:TelephoneNumber>+390471232614</md:TelephoneNumber>
+    </md:ContactPerson>
+</md:EntityDescriptor>
